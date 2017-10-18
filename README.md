@@ -16,7 +16,7 @@ You can see how the ceiling function simply modifies the return of the statement
 
 To implement the functionality of each of these classes, you may employ the cmath library (`math.h`). This makes the implementation of the functionality trivial, so it is important that you are fully testing all variations of decorator composition (specifically, when an absolute value points to a ceiling/floor and vice-versa), since this is one of the more important concepts when discussing decorator patterns. 
 
-##Submission
+## Submission
 To receive credit for this lab you must show an example program to your TA that demonstrates the full functionality of this pattern along with the composite and strategy patterns, and must explain to your TA the structure of both your classes and how they interact.
 
-Once you have demoed to your TA, commit and push your code to your github repository and submit a screenshot of this psuh to the lab submission on iLearn.
+Once you have demoed to your TA, commit and push your code to your github repository and submit a screenshot of this push to the lab submission on iLearn.
