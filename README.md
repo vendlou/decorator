@@ -1,4 +1,7 @@
 # Decorator Pattern
+
+> Author: Jimmy Tran, Brian Crites ([@brrcrites](https://github.com/brrcrites))
+
 **You *must* work in a group of two for this lab**
 
 In this lab you will be extending the system that you have created in your Composite and Strategy Pattern labs. In this lab you will use the decorator pattern to modify both the `evaluate()` and `stringify()` functions you've previously implemented in your expression tree. For example, you may want to round the results of an expression (or the results of the subset of an expression) so you may create an expression like the following:
