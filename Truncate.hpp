@@ -2,12 +2,12 @@
 #define __TRUNCATE_HPP__
 
 #include "Decorator.hpp"
-class Truncate :public Decorator {
+class Trunc:public Decorator {
 public:
-	Truncate(Base* expression) :Decorator(expression) {};
+	Trunc(Base* expression) :Decorator(expression) {};
 	std::string stringify();
 };
-std::string Truncate::stringify() {
+std::string Trunc::stringify() {
 	return std::to_string(Decorator::evaluate());
 }
 #endif

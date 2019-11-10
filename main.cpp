@@ -14,14 +14,14 @@ int main() {
 	Op* four = new Op(4.4);
 	Floor* FloorFour = new Floor(four);
 	Add* TreeA = new Add(CeilSix, FloorFour);
-	Truncate* TruncateTreeA = new Truncate(TreeA);
+	Trunc* TruncateTreeA = new Trunc(TreeA);
 
 	Op* one1 = new Op(1);
 	Op* one2 = new Op(-1);
 	Abs* AbsOne1 = new Abs(one1);
 	Abs* AbsOne2 = new Abs(one2);
 	Add* TreeB = new Add(AbsOne1, AbsOne2);
-	Parenthesies* PareTreeB = new Parenthesies(TreeB);
+	Paren* PareTreeB = new Paren(TreeB);
 
 	Add* TreeC = new Add(TruncateTreeA, PareTreeB);
 	std::cout << "The Ceil of " << six->evaluate() << " is " << CeilSix->evaluate() << std::endl;

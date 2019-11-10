@@ -2,12 +2,12 @@
 #define __PARENTHESIES_HPP__
 
 #include "Decorator.hpp"
-class Parenthesies :public Decorator {
+class Paren :public Decorator {
 public:
-	Parenthesies(Base* expression) :Decorator(expression) {};
+	Paren (Base* expression) :Decorator(expression) {};
 	std::string stringify();
 };
-std::string Parenthesies::stringify() {
+std::string Paren::stringify() {
 	return '('+Decorator::stringify()+')';
 }
 #endif
